@@ -1,0 +1,17 @@
+#
+# xwpe - project-file: project.prj
+# createted by xwpe version Version 1.4.2
+#
+ 
+
+CMP=	gcc
+CMPFLAGS=	-g -I/usr/X11R6/include -L/usr/X11R6/lib -lX11
+LDFLAGS=	
+EXENAME=	a.out
+CMPSWTCH=	gnu
+CMPMESSAGE=	'${?*:warning:}\"${FILE}\", line ${LINE}:* at or near * \"${COLUMN=AFTER}\"'
+
+FILES=	/home/akashi/knn/rec.c   
+
+install:
+	 
